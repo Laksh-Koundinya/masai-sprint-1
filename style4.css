@@ -1,0 +1,71 @@
+.large {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto; 
+    padding: 20px;
+    }
+    body {
+        background: #00e1d9;
+    }
+    #heading {
+        font-size: 32px;
+        color:#5e001f;
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+         }
+ iframe {
+     height: 230px;
+     width: 370px;
+ }
+ iframe + div {
+     font-size: 24px;
+     text-align: center;
+     color:#5e001f;
+ }
+ @media only screen and (max-width: 838px) {
+    .large {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto; 
+    padding: 20px;
+    }
+    body {
+        background: #ffd55a;
+    }
+    iframe + div {
+     font-size: 16px;
+     text-align: center;
+     color:  rgb(67, 146, 31);
+    }
+ #heading {
+        font-size: 24px;
+        color: rgb(67, 146, 31);
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+         }
+ }
+ @media only screen and (max-width: 550px) {
+    .large {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto; 
+    padding: 20px;
+    justify-content: center;
+    }
+    body {
+        background: white;
+    }
+    iframe + div {
+     font-size: 16px;
+     text-align: center;
+     color: #104c91;
+    }
+ #heading {
+        font-size: 20px;
+        color: #104c91;
+        text-align: center;
+        font-family: 'Fjalla One', sans-serif;
+         }
+    }

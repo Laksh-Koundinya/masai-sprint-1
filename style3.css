@@ -1,0 +1,59 @@
+
+.flex {
+    display: flex;
+    color: orangered;
+    text-align: center;
+    margin-left: 32%;
+    width:40%;
+    font-size: 36px;
+    font-family: 'Pacifico', cursive;
+}
+.bottom{
+   display: flex;
+    color: white;
+    background-color: orangered;
+    margin-left: 35%;
+    width: 29.5%;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Pacifico', cursive;
+}
+.div {
+   height: 80%;
+   width: 33%;
+   float:left;
+}
+body {
+   background-color: rgb(29, 22, 22)
+}
+img[u] {
+   width:80%;
+   margin-left: 9.5%;
+}
+img {
+   margin-top: 3%;
+  
+}
+img ~ h3 {
+   color: orangered;
+}
+h3 > p {
+   color: white;
+   font-size: 16px;
+}
+p,h3 {
+   text-align: center;
+}
+img[ti] {
+   height: 54.5%;
+   margin-left: 26%;
+}
+img[tt] {
+   height: 54%;
+   margin-left: 12%;
+}
+.verysmall {
+   text-align: center;
+   color:peachpuff;
+   font-size: xx-small ;
+}
